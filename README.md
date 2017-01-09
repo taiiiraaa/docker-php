@@ -1,4 +1,4 @@
-To run PHP application in docker container
+To run a PHP application in a docker container
 ---
 ### Install
 [Docker](https://www.docker.com/products/docker)
