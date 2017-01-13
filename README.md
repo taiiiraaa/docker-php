@@ -10,6 +10,7 @@ E.g:
 ```bash
 $ cd /var/www/docker-php
 ```
+
 ### Build Container
 ```bash
 $ docker-compose build
@@ -26,6 +27,7 @@ $ docker exec -it containername_php_1 /bin/bash
 ```
 ### Run composer
 ```bash
+$ cd app
 $ php composer.phar update
 ```
 ### Run phpunit

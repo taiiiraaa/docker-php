@@ -1,8 +1,16 @@
 version: '2'
 
 services:
+    http:
+        build: ./docker/nginx
+        ports:
+            - '8080:80'
+        volumes:
+            - ./app:/var/www/html
+        command: nginx -g 'daemon off;'
+        links:
+            - php
     php:
         build: ./docker/php
         volumes:
             - ./app:/var/www/html
-        
