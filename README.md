@@ -1,5 +1,7 @@
 Run a PHP application in a docker container
 ---
+Includes linked containers for PHP, Nginx and Mysql.
+
 ### Install
 [Docker](https://www.docker.com/products/docker)
 
