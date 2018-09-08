@@ -51,6 +51,6 @@ root:root
 ```
 
 ### Packages
-- php:7.0-fpm. To change PHP version, update docker/php/Dockerfile.
+- php:7.2-fpm. To change PHP version, update docker/php/Dockerfile.
 - nginx:stable. To change Nginx version, update docker/nginx/Dockerfile.
 - mysql:5.7. To change Mysql version, update docker-compose.yml
